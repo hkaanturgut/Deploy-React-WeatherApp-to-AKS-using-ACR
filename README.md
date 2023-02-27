@@ -172,6 +172,6 @@ This is the summary of the steps that we will go over in this tutorial:
 ## APP IS WORKING THROUGH AZURE KUBERNETES SERVICE
 ![Screenshot 2023-02-26 at 10 05 23 PM](https://user-images.githubusercontent.com/113396342/221472429-ee5ced57-8cd5-4dea-be82-e4ea20596e53.png)
 
+#
 
-    
-    
+Developer of the App : <a href="https://github.com/hamzakoc/Wheather_App_React" target="_blank">Hamza KOC</a>
