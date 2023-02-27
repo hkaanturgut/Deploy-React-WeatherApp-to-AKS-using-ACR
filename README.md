@@ -2,6 +2,9 @@
 
 This GitHub repository provides a step-by-step guide on how to deploy your React Weather App to Azure Kubernetes Service (AKS) using Azure Container Registry (ACR). The guide is designed to be beginner-friendly and includes detailed instructions and code snippets to help you set up your AKS cluster, containerize your app, and deploy it to AKS using ACR. With this guide, you can easily deploy your React Weather App to AKS and make it available to your users with high availability and scalability.
 
+![react-weather-aks-acr-diagram drawio](https://user-images.githubusercontent.com/113396342/221478940-4180565c-1469-4edd-b7e5-1c38a5df5bc8.png)
+#
+
 This is the summary of the steps that we will go over in this tutorial:
 
 - Create Azure Container Registry (ACR) by TERRAFORM
