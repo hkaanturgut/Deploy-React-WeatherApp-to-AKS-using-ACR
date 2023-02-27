@@ -149,6 +149,8 @@ This is the summary of the steps that we will go over in this tutorial:
                 type: LoadBalancer
 
 
+
+
 #
 
 #### Create the Deployment and Service 
