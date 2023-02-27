@@ -7,6 +7,7 @@ This GitHub repository provides a step-by-step guide on how to deploy your React
 
 This is the summary of the steps that we will go over in this tutorial:
 
+- Build Docker Image with Dockerfile
 - Create Azure Container Registry (ACR) by TERRAFORM
 - Create Azure Kubernetes Services (AKS) by TERRAFORM.
 - Push the image into ACR registry
@@ -14,6 +15,30 @@ This is the summary of the steps that we will go over in this tutorial:
 
 ## Lets Get Started!
 
+### Build a Docker Image
+
+- Create a Dockerfile with the following content;
+
+
+       FROM node:14
+
+       WORKDIR /app
+
+       COPY package*.json ./
+
+       RUN npm install
+
+       COPY . .
+
+       EXPOSE 3000
+
+       CMD [ "npm", "start" ]
+
+     
+  In order to build the image;
+  
+         - docker build -t IMAGE_NAME . 
+       
 ### Create ACR and AKS by Terraform
 
  - <a href="https://github.com/hkaanturgut/Deploy-React-WeatherApp-to-AKS-using-ACR/tree/main/AKS-ACR-TERRAFORM" target="_blank">AKS-ACR Terraform Codes</a>
